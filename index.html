@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="./lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+		<style>
+			.html-tooltip {
+				width: 300px;
+			}
+			
+			.mapping-tooltip {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">
+				Infusion tooltip example
+			  </a>
+			</div>
+		  </div>
+		</nav>
+	
+		<div class="demo col-lg-12">
+			<div class="col-xs-6">
+				<a class="label1 btn btn-primary">button with an HTML tooltip</a>
+				<div class="mapping-tooltip">
+					<div class="panel panel-default html-tooltip">
+					  <div class="panel-heading">
+						<h3 class="panel-title">Panel title</h3>
+					  </div>
+					  <div class="panel-body">
+						Panel content
+					  </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xs-6">
+				<a class="label2 btn btn-primary">Button with a textual tooltip</a>
+			</div>
+		</div>
+		
+		
+		<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="./lib/infusion/infusion-all.js"></script>
+		<script src="./js/sample.js"></script>
+	</body>
+</html>
